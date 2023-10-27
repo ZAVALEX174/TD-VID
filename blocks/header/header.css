@@ -1,0 +1,178 @@
+body {
+  box-sizing: border-box;
+  background-color: #f3f7f9;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: 'Jura';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  border: 1px solid red;
+}
+
+.header__background {
+  width: 100vw;
+  height: 500px;
+  background-image: url('../../images/Gori.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper {
+  margin-top: 25px;
+  width: 100vw;
+  /* border: 1px solid rgb(17, 0, 255); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(6, 45, 54, 0.9);
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  padding: 0 43px 0 61px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.wrapper .menu ul li a {
+  text-decoration: none;
+}
+.wrapper .menu ul li {
+  list-style-type: none;
+}
+
+.logo {
+  transform: translateY(-15px);
+}
+
+.menu__list {
+  color: #fff;
+  font-family: 'Jura';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .menu__item {
+    color: #fff;
+    font-family: 'Jura';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  } */
+
+.menu__list_active {
+  color: #facb0a;
+}
+
+.user-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.user-menu__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.user-menu__item {
+  /* width: 44px;
+    height: 44px; */
+}
+
+.user-menu__item_border {
+  /* width: 44px;
+    height: 44px;
+    background: url(../images/Ellipse1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+  /* border: 1px solid #0E2A33; */
+  /* width: 44px;
+    height: 44px; */
+  padding: 20px;
+  background: #0e2a33;
+  border-radius: 50px;
+}
+
+.user-menu__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+.user-menu__icon {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+.phone-call {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.number {
+  padding: 0 0 0 30px;
+  margin: 0;
+  color: #fecd14;
+  font-family: 'Jura';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text {
+  padding: 0 0 0 30px;
+  margin: 0;
+  color: #299dae;
+  font-family: 'Jura';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

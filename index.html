@@ -10,7 +10,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/index.css" />
     <title>ТД ВИД</title>
   </head>
   <body>
@@ -19,15 +19,17 @@
         <div class="wrapper">
           <div class="container">
             <a href="#">
-              <img
+              <img class="logo"
                 src="./images/Logo.svg"
                 alt="Логотип компании ТД ВИД"
                 srcset="" />
             </a>
             <nav class="menu">
-              <ul>
+              <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__list active">О компании</a>
+                  <a href="#" class="menu__list menu__list_active"
+                    >О компании</a
+                  >
                 </li>
                 <li class="menu__item">
                   <a href="#" class="menu__list">Каталог</a>
@@ -47,36 +49,41 @@
               </ul>
             </nav>
             <nav class="user-menu">
-              <ul>
-                <li>
-                  <a href="#"
-                    ><img
+              <ul class="user-menu__list">
+                <li class="user-menu__item">
+                  <a class="user-menu__link" href="#">
+                    <img
+                      class="user-menu__icon"
                       src="./images/Saerh.svg"
                       alt="Иконка поиска в виде лупы"
-                      srcset=""
-                  /></a>
+                      srcset="" />
+                  </a>
                 </li>
-                <li>
-                  <a href="#"
-                    ><img
+                <li class="user-menu__item">
+                  <!-- <div class="user-menu__item_bg"> -->
+                  <a class="user-menu__link" href="#">
+                    <img
+                      class="user-menu__icon user-menu__item_border"
                       src="./images/HeaderBag.svg"
                       alt="Иконка карзины покупок"
-                      srcset=""
-                  /></a>
+                      srcset="" />
+                  </a>
+                  <!-- </div> -->
                 </li>
-                <li>
-                  <a href="#"
-                    ><div class="contacts">
+                <li class="user-menu__item">
+                  <a class="user-menu__link" href="tel:+73512113735">
+                    <div class="contacts">
                       <img
+                        class="user-menu__icon"
                         src="./images/HeaderTel.svg"
                         alt="иконка трубки телефона"
                         srcset="" />
-                      <div class="coll">
+                      <div class="phone-call">
                         <p class="number">+7 351 211 37 35</p>
                         <p class="text">Заказать звонок</p>
                       </div>
-                    </div></a
-                  >
+                    </div>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -84,5 +91,21 @@
         </div>
       </div>
     </header>
+    <main class="main">
+      <section class="promotional-product container-medium">
+        <h1 class="promotional-product__title"><b>N-</b>DURO</h1>
+        <p class="promotional-product__subtitle">
+          Полностью синтетическое масло премиум-класса для высоконагруженных
+          дизельных двигателей тяжелых грузовиков.
+        </p>
+        <a href="#" class="promotional-product__button"
+          >Подробнее
+          <img
+            src="./images/dubleStrelka.svg"
+            alt="ИКонка двойной стрелки для перехода на страницу подробнее о товаре"
+            class="promotional-product__icon"
+        /></a>
+      </section>
+    </main>
   </body>
 </html>
