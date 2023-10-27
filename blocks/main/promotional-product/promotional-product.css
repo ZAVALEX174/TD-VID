@@ -1,21 +1,28 @@
+.container-medium {
+  box-sizing: border-box;
+  max-width: 1400px;
+  /* width: 100%; */
+}
+
 .promotional-product {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 14px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 20px;
   padding-left: 27px;
-  padding-bottom: 40px;
   border-radius: 20px;
   background: rgba(40, 98, 119, 0.5);
   backdrop-filter: blur(2px);
   position: relative;
+  z-index: 1;
+  /* border: 1px solid orange; */
 
   transform: translateY(-220px);
 }
-.container-medium {
-  max-width: 1400px;
-  width: 100%;
-}
+
 .promotional-product__title {
   color: #fff;
   font-family: 'Kelson Sans RU';
@@ -66,4 +73,23 @@ b {
 }
 .promotional-product__icon {
   padding: 0 25px;
+}
+
+.promotional-product__variant_blur {
+  position: absolute;
+  bottom: -36%;
+  right: 8%;
+  z-index: 1;
+}
+.promotional-product__variant_canister {
+  position: absolute;
+  top: -56%;
+  right: 30%;
+  z-index: 3;
+}
+.promotional-product__variant_barrel {
+  position: absolute;
+  top: -38%;
+  right: 13%;
+  z-index: 5;
 }
