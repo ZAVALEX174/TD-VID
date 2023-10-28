@@ -1,0 +1,30 @@
+.services {
+  width: 100vw;
+}
+.container-medium {
+}
+.services__background {
+  margin: 0;
+  padding: 0;
+
+  background: url('../../../images/Baner2.png');
+  background-repeat: no-repeat;
+  /* lightgray 0px -78px / 100% 154.321% no-repeat; */
+  background-blend-mode: lighten;
+}
+.services__car-wrapper {
+}
+.car-track {
+}
+.car-hatchback {
+}
+.services__wraapper-text {
+}
+.services__text-title {
+}
+.services__text-subtitle {
+}
+.services__button {
+}
+.services__icon_green {
+}
