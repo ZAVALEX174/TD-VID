@@ -10,7 +10,8 @@
 
 @import url(../blocks/main/slider/slider.css);
 
-@import url(../blocks/main);
+@import url(../blocks/main/uniqueness/uniqueness.css);
+
 @import url(../blocks/main);
 
 @import url(../blocks/main);
