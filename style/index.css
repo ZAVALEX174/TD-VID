@@ -14,7 +14,8 @@
 
 @import url(../blocks/main/about/about.css);
 
-@import url(../blocks/main);
+@import url(../blocks/main/categories/categories.css);
+
 @import url(../blocks/main);
 @import url(../blocks/main);
 

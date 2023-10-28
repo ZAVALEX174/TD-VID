@@ -1,5 +1,6 @@
 .about {
-  padding-bottom: 30px;
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
 /* .container-medium {
 } */
@@ -60,5 +61,5 @@
   font-weight: 600;
   line-height: 16px; /* 88.889% */
 }
-.promotional-product__icon_green {
-}
+/* .promotional-product__icon_green {
+} */

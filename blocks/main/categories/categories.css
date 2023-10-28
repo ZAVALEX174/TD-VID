@@ -1,0 +1,105 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+.container-full {
+  margin: 0 auto;
+  max-width: 1514px;
+}
+.categories__icon {
+}
+.categories__title {
+  color: #004b5e;
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.categories__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.categories__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: baseline;
+  gap: 14px;
+  text-decoration: none;
+  color: #798c97;
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 88.889% */
+}
+.categories__icon_green {
+}
+.categories__prev {
+}
+.categories__cards {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.categories__card {
+  max-width: 330px;
+  min-height: 378px;
+  border-radius: 10px;
+  background: #fff;
+  list-style-type: none;
+  padding: 0;
+}
+.categories__card-title {
+  color: #18948f;
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.categories__line-bottom {
+  display: inline-block;
+  width: 330px;
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgba(221, 233, 239, 0) 0%,
+    rgba(210, 224, 232, 0.49) 50%,
+    rgba(221, 233, 239, 0) 100%
+  );
+}
+.categories__image {
+  width: 100%;
+}
+.categories__text {
+  color: #254f4d;
+  font-family: 'Jura', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about__button {
+  padding: 12px 24px 19px 39px;
+  text-decoration: none;
+  color: #fecd14;
+  font-family: 'Jura', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  border-radius: 10px;
+  background: linear-gradient(
+    142deg,
+    #004b5e 21.17%,
+    rgba(18, 60, 74, 0) 132.69%
+  );
+}
+/* .promotional-product__icon_green {
+} */
+.categories__next {
+}
