@@ -18,12 +18,16 @@
 
 @import url(../blocks/main/services1/services.css);
 
+@import url(../blocks/main/product-cards/product-cards.css);
+
+@import url(../blocks/footer/footer.css);
+
+
+
+
+/* @import url(../blocks/main);
 @import url(../blocks/main);
 
 @import url(../blocks/main);
 @import url(../blocks/main);
-@import url(../blocks/main);
-
-@import url(../blocks/main);
-@import url(../blocks/main);
-@import url(../blocks/main);
+@import url(../blocks/main); */
