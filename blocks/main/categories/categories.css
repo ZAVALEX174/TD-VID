@@ -1,6 +1,7 @@
 .categories {
   display: flex;
   flex-direction: column;
+  padding-bottom: 130px;
 }
 .container-full {
   margin: 0 auto;
