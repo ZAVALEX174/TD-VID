@@ -1,6 +1,7 @@
 .product-cards {
 }
 .container-medium {
+  border: 1px solid blue;
 }
 .categories__title {
 }
@@ -9,28 +10,95 @@
 .product-cards__wrapper {
 }
 .product-cards__cards {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
 }
 .product-cards__card {
+  padding: 0;
+  padding: 13px 19px 20px 19px;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 330px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .product-cards__image {
 }
 .product-cards__title {
+  padding: 0;
+  max-width: 299px;
+  color: #215c6a;
+  font-family: 'Jura', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 105.882% */
 }
 .product-cards__line {
 }
 .product-card__list {
+  padding: 0 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.prodct-card__item {
+.product-card__item {
+  padding: 0;
+  color: #585b63;
+  font-family: 'Jura', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .product-card__wpapper {
 }
 .price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .price__new {
+  color: #38827f;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 60% */
 }
 .price__old {
+  color: #718b98;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 112.5% */
+  text-decoration: line-through;
 }
 .product-card__bag {
 }
 .product-card__in-bag {
+}
+.product-card__button-still {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  padding: 12px 10px 12px 22px;
+  border-radius: 50px;
+  background: #fff;
+  color: #798c97;
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 88.889% */
+}
+.product-card__button-still-icon {
+  padding-left: 10px;
 }
