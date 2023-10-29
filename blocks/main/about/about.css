@@ -54,6 +54,7 @@
 }
 
 .about__button {
+  text-decoration: none;
   color: #38827f;
   font-family: 'Jura', sans-serif;
   font-size: 18px;
