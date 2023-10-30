@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>ТД ВИД</title>
   </head>
   <body>
@@ -148,27 +152,74 @@
             <ul class="slider-menu__list">
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Моторные масла</a>
+                <img
+                  src="./images/Line1.svg"
+                  alt=""
+                  class="slider-menu__line" />
               </li>
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Трансмиссионные масла</a>
+                <img
+                  src="./images/Line1.svg"
+                  alt=""
+                  class="slider-menu__line" />
               </li>
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Гидравлические масла</a>
+                <img
+                  src="./images/Line1.svg"
+                  alt=""
+                  class="slider-menu__line" />
               </li>
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Пластичные смазки</a>
+                <img
+                  src="./images/Line1.svg"
+                  alt=""
+                  class="slider-menu__line" />
               </li>
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Антифризы</a>
+                <img
+                  src="./images/Line1.svg"
+                  alt=""
+                  class="slider-menu__line" />
               </li>
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link">Специальные масла</a>
               </li>
               <li class="slider-menu__item">
-                <a href="#" class="slider-menu__link"
-                  >Что то еще должно быть 1</a
-                >
+                <a href="#" class="slider-menu__link_circle">
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none">
+                      <circle cx="3.5" cy="3.5" r="3.5" fill="white" /></svg
+                  ></span>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none">
+                      <circle cx="3.5" cy="3.5" r="3.5" fill="white" /></svg
+                  ></span>
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="7"
+                      height="7"
+                      viewBox="0 0 7 7"
+                      fill="none">
+                      <circle cx="3.5" cy="3.5" r="3.5" fill="white" /></svg
+                  ></span>
+                </a>
               </li>
+              <!-- 
               <li class="slider-menu__item">
                 <a href="#" class="slider-menu__link"
                   >Что то еще должно быть 2</a
@@ -183,7 +234,7 @@
                 <a href="#" class="slider-menu__link"
                   >Что то еще должно быть 4</a
                 >
-              </li>
+              </li> -->
             </ul>
           </nav>
         </div>
@@ -249,7 +300,8 @@
           </article>
         </div>
       </section>
-      <section class="categories container-full">
+      <!-- <section class="categories container-full"> -->
+        <section class="categories">  
         <h2 class="categories__title">
           <img
             src="./images/iconYelouFire.svg"
@@ -263,17 +315,17 @@
             alt="Иконка двойной стрелки для перехода на страницу все категории"
             class="categories__icon_green"
         /></a>
+        <button type="button">
+          <img
+            class="categories__prev"
+            src="./images/bl.svg"
+            alt=""
+            srcset="" /><img
+            src="./images/StrelkaLeft.svg"
+            alt=""
+            srcset="" />
+        </button>
         <article class="categories__container">
-          <button type="button" >
-            <img
-              class="categories__prev"
-              src="./images/bl.svg"
-              alt=""
-              srcset="" /><img
-              src="./images/StrelkaLeft.svg"
-              alt=""
-              srcset="" />
-          </button>
           <ul class="categories__cards">
             <li class="categories__card">
               <h3 class="categories__card-title">Моторные масла</h3>
@@ -356,17 +408,17 @@
               /></a>
             </li>
           </ul>
-          <button type="button">
-            <img
-              class="categories__next"
-              src="./images/BorderStrelkaRight.svg"
-              alt=""
-              srcset="" /><img
-              src="./images/StrelkaRight.svg"
-              alt=""
-              srcset="" />
-          </button>
         </article>
+        <button type="button">
+          <img
+            class="categories__next"
+            src="./images/BorderStrelkaRight.svg"
+            alt=""
+            srcset="" /><img
+            src="./images/StrelkaRight.svg"
+            alt=""
+            srcset="" />
+        </button>
       </section>
       <section class="services">
         <div class="services__background">
@@ -426,9 +478,34 @@
                   <p class="price__old">9579 ₽</p>
                 </article>
                 <button type="button" class="product-card__bag">
+                  <svg
+                    class="product-card__bag-icon"
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#38827f" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#38827f" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#38827f" />
+                  </svg>
                   В корзину
                 </button>
                 <button type="button" class="product-card__in-bag">
+                  <svg
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#FAB909" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#FAB909" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#FAB909" />
+                  </svg>
                   В корзине
                 </button>
               </div>
@@ -453,36 +530,35 @@
                   <p class="price__old">9579 ₽</p>
                 </article>
                 <button type="button" class="product-card__bag">
+                  <svg
+                    class="product-card__bag-icon"
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#38827f" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#38827f" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#38827f" />
+                  </svg>
                   В корзину
                 </button>
                 <button type="button" class="product-card__in-bag">
-                  В корзине
-                </button>
-              </div>
-            </li>
-            <li class="product-cards__card">
-              <img
-                src="./images/cardProduct.png"
-                alt="Картинка с канистой масла"
-                class="product-cards__image" />
-              <h4 class="product-cards__title">
-                Масло моторное C.N.R.G. N-Force Supreme 10W-40 SN/CF (кан. 20 л)
-              </h4>
-              <span class="product-cards__line"></span>
-              <ul class="product-card__list">
-                <li class="product-card__item">Вязкость: 10W-40</li>
-                <li class="product-card__item">Емкость: 20 л (канистра)</li>
-                <li class="product-card__item">Тип: полусинтетическое</li>
-              </ul>
-              <div class="product-card__wpapper">
-                <article class="price">
-                  <p class="price__new">7579 ₽</p>
-                  <p class="price__old">9579 ₽</p>
-                </article>
-                <button type="button" class="product-card__bag"><img class="product-card__bag-icon" src="./images/КорзинаCardЗеленая.svg" alt="Иконка тележки" srcset="">
-                  В корзину
-                </button>
-                <button type="button" class="product-card__in-bag"><img class="product-card__in-bag-icon" src="./images/КорзинаCard.svg" alt="Иконка тележки" srcset="">
+                  <svg
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#FAB909" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#FAB909" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#FAB909" />
+                  </svg>
+
                   В корзине
                 </button>
               </div>
@@ -507,9 +583,93 @@
                   <p class="price__old">9579 ₽</p>
                 </article>
                 <button type="button" class="product-card__bag">
+                  <!-- <img
+                    class="product-card__bag-icon"
+                    src="./images/КорзинаCardЗеленая.svg"
+                    alt="Иконка тележки"
+                    srcset="" /> -->
+                  <svg
+                    class="product-card__bag-icon"
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#38827f" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#38827f" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#38827f" />
+                  </svg>
                   В корзину
                 </button>
                 <button type="button" class="product-card__in-bag">
+                  <svg
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#FAB909" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#FAB909" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#FAB909" />
+                  </svg>
+
+                  В корзине
+                </button>
+              </div>
+            </li>
+            <li class="product-cards__card">
+              <img
+                src="./images/cardProduct.png"
+                alt="Картинка с канистой масла"
+                class="product-cards__image" />
+              <h4 class="product-cards__title">
+                Масло моторное C.N.R.G. N-Force Supreme 10W-40 SN/CF (кан. 20 л)
+              </h4>
+              <span class="product-cards__line"></span>
+              <ul class="product-card__list">
+                <li class="product-card__item">Вязкость: 10W-40</li>
+                <li class="product-card__item">Емкость: 20 л (канистра)</li>
+                <li class="product-card__item">Тип: полусинтетическое</li>
+              </ul>
+              <div class="product-card__wpapper">
+                <article class="price">
+                  <p class="price__new">7579 ₽</p>
+                  <p class="price__old">9579 ₽</p>
+                </article>
+                <button type="button" class="product-card__bag">
+                  <svg
+                    class="product-card__bag-icon"
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#38827f" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#38827f" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#38827f" />
+                  </svg>
+                  В корзину
+                </button>
+                <button type="button" class="product-card__in-bag">
+                  <svg
+                    width="20"
+                    height="15"
+                    viewBox="0 0 20 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.625 0C0.279833 0 0 0.2825 0 0.631083C0 0.979583 0.279833 1.26208 0.625 1.26208H3.1185C4.15292 3.84883 5.17183 6.44033 6.198 9.03183L5.25392 11.3259C5.17483 11.5172 5.19708 11.7478 5.31125 11.9201C5.42542 12.0923 5.62808 12.201 5.83342 12.2002H16.2502C16.5803 12.2048 16.884 11.9026 16.884 11.5692C16.884 11.2357 16.5803 10.9334 16.2502 10.9381H6.77092L7.31125 9.63658L17.3439 8.82808C17.6065 8.80725 17.8442 8.60067 17.9038 8.34158L19.1538 2.87258C19.2356 2.50417 18.9157 2.10225 18.5418 2.1035H4.79817L4.12108 0.394417C4.02842 0.163084 3.78883 0 3.54167 0H0.625ZM5.2995 3.36558H17.7541L16.784 7.612L7.28525 8.3745L5.2995 3.36558Z"
+                      fill="#FAB909" />
+                    <circle cx="7.0835" cy="13.75" r="1.25" fill="#FAB909" />
+                    <circle cx="14.5835" cy="13.75" r="1.25" fill="#FAB909" />
+                  </svg>
+
                   В корзине
                 </button>
               </div>
@@ -518,12 +678,12 @@
         </article>
         <button type="button" class="product-card__button-still">
           Еще товары
-          <img class="product-card__button-still-icon"
+          <img
+            class="product-card__button-still-icon"
             src="./images/RefreshSquare.svg"
             alt="Иконка стрелки по кругу"
             srcset="" />
         </button>
-        
       </section>
     </main>
     <footer class="footer">
