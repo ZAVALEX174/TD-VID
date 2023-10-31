@@ -14,14 +14,17 @@
   transform: translateY(-208px);
   z-index: 10;
 }
+
 /* .container-medium {
 } */
+
 .slider__container {
   display: flex;
   flex-direction: row;
 }
-.slider-menu {
-}
+
+/* .slider-menu {
+} */
 
 .slider-menu__line {
   width: 52px;
@@ -34,6 +37,7 @@
     rgba(73, 148, 145, 0) 104.72%
   ); */
 }
+
 .slider-menu__list {
   padding: 0 26px 0 52px;
   margin: 0;
@@ -44,17 +48,18 @@
   /* justify-content: center; */
   gap: 0px;
 }
+
 .slider-menu__item {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .slider-menu__link {
   padding-right: 3px;
   padding-left: 3px;
   text-decoration: none;
   color: #fff;
-
   font-family: 'Jura', sans-serif;
   font-size: 16px;
   font-style: normal;

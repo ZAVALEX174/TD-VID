@@ -4,25 +4,27 @@
   justify-content: space-between;
   padding-bottom: 31px;
 }
+
 .uniqueness__cards {
   padding: 0;
   gap: 27px;
 }
+
 .uniqueness__card {
   display: flex;
-  /* padding: 0; */
   padding: 42px;
   list-style-type: none;
   max-width: 330px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.5);
-
   align-items: center;
   justify-content: center;
 }
+
 .uniqueness__icon {
   padding-right: 30px;
 }
+
 .uniqueness__title {
   color: #0c2d35;
   font-family: 'Jura', sans-serif;

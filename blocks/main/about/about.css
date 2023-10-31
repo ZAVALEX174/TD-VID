@@ -2,6 +2,7 @@
   padding-top: 31px;
   padding-bottom: 31px;
 }
+
 /* .container-medium {
 } */
 .about__title {
@@ -13,17 +14,18 @@
   font-weight: 700;
   line-height: 22px; /* 73.333% */
 }
+
 .about__container {
   padding: 27px 100px 41px 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 43px;
-
   border-radius: 10px;
   background: url('../../../images/Baner2.png'),
     lightgray -515.894px -57px / 136.85% 240.385% no-repeat;
 }
+
 .logo__big {
   width: 328px;
 }
@@ -62,5 +64,6 @@
   font-weight: 600;
   line-height: 16px; /* 88.889% */
 }
+
 /* .promotional-product__icon_green {
 } */

@@ -18,9 +18,8 @@
   /* backdrop-filter: blur(2px); */
   position: relative;
   z-index: 1;
-  /* border: 1px solid orange; */
-
   transform: translateY(-220px);
+  /* border: 1px solid orange; */
 }
 
 .promotional-product::before {
@@ -63,6 +62,7 @@ b {
   font-weight: 600;
   line-height: 16px; /* 88.889% */
 }
+
 .promotional-product__button {
   display: flex;
   flex-direction: row;
@@ -84,6 +84,7 @@ b {
   left: 40%;
   bottom: 19%;
 }
+
 .promotional-product__icon {
   padding: 0 25px;
 }
@@ -94,12 +95,14 @@ b {
   right: 8%;
   z-index: -10;
 }
+
 .promotional-product__variant_canister {
   position: absolute;
   top: -56%;
   right: 30%;
   z-index: 3;
 }
+
 .promotional-product__variant_barrel {
   position: absolute;
   top: -38%;

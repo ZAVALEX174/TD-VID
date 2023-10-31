@@ -7,9 +7,10 @@
   background: url('../../../images/Union55.png') top right,
     url('../../../images/Union66.png') bottom right;
   background-repeat: no-repeat;
-  top: 34%;
+  top: 60%;
   right: 0;
 }
+
 .sidebar {
   margin: 0;
   padding: 0;
@@ -17,7 +18,9 @@
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
+
 .sidebar__list {
   margin: 0;
   padding: 0 0 0 5px;
@@ -29,16 +32,19 @@
   justify-content: center;
   gap: 24px;
 }
+
 .sidebar__item {
   list-style-type: none;
   width: 24px;
   height: 24px;
 }
+
 .sidebar__link {
   text-decoration: none;
   display: inline-block;
   width: 100%;
 }
+
 .sidebar__icon {
   width: 100%;
   height: 100%;

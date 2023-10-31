@@ -3,16 +3,19 @@
   flex-direction: column;
   padding-bottom: 130px;
   position: relative;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
+
 .container-full {
   margin: 0 auto;
   max-width: 1514px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
+
 .categories__icon {
   padding-right: 10px;
 }
+
 .categories__title {
   padding-left: 60px;
   color: #004b5e;
@@ -22,14 +25,15 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .categories__container {
   max-width: 1400px;
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
+
 .categories__button {
   padding-right: 60px;
   padding-bottom: 22px;
@@ -46,27 +50,33 @@
   font-weight: 600;
   line-height: 16px; /* 88.889% */
 }
+
 .categories__container-full {
   max-width: 1520px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.categories__icon_green {
-}
+
+/* .categories__icon_green {
+} */
+
 .categories__prev {
   position: relative;
   border: none;
   background: transparent;
 }
-.categories__prev {
-}
+
+/* .categories__prev {
+} */
+
 .categories__prev-arrow {
   position: absolute;
   transform: rotate(180deg);
   top: 32%;
   left: 43.5%;
 }
+
 .categories__cards {
   margin: 0;
   padding: 0;
@@ -74,6 +84,7 @@
   flex-direction: row;
   gap: 26px;
 }
+
 .categories__card {
   display: flex;
   flex-direction: column;
@@ -85,8 +96,8 @@
   list-style-type: none;
   padding: 0;
 }
+
 .categories__card-title {
-  
   color: #18948f;
   font-family: 'Jura', sans-serif;
   font-size: 22px;
@@ -94,6 +105,7 @@
   font-weight: 700;
   line-height: normal;
 }
+
 .categories__line-bottom {
   display: inline-block;
   width: 330px;
@@ -105,9 +117,11 @@
     rgba(221, 233, 239, 0) 100%
   );
 }
+
 .categories__image {
   width: 100%;
 }
+
 .categories__text {
   color: #254f4d;
   font-family: 'Jura', sans-serif;
@@ -116,6 +130,7 @@
   font-weight: 700;
   line-height: normal;
 }
+
 .categories__button-card {
   padding: 12px 24px 19px 39px;
   text-decoration: none;
@@ -132,18 +147,21 @@
     rgba(18, 60, 74, 0) 132.69%
   );
 }
+
 /* .promotional-product__icon_green {
 } */
+
 .button-next {
   border: none;
   background: transparent;
   position: relative;
 }
-.categories__next {
-}
+
+/* .categories__next {
+} */
+
 .categories__next-arrow {
   position: absolute;
-
   top: 32%;
   right: 43.5%;
 }

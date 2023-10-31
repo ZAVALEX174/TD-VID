@@ -1,54 +1,57 @@
 .services {
   padding-top: 130px;
   padding-bottom: 31px;
-  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   min-height: 324px;
   /* border: 1px solid red; */
   align-items: center;
 }
-/* .container-medium {
-} */
 
 .services__container {
   margin: 0 auto;
   padding: 5px 60px 60px 25px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  max-width: 1440px;
+  justify-content: flex-end;
 }
+
 .services__background {
   margin: 0;
   padding: 0;
   width: 100%;
   min-height: 324px;
-
   background: url('../../../images/Baner2.png');
   background-repeat: no-repeat;
   /* lightgray 0px -78px / 100% 154.321% no-repeat; */
   background-blend-mode: lighten;
   background-size: cover;
-
   position: relative;
   z-index: 0;
 }
-.services__car-wrapper {
-  /* border: 1px solid red;
-  position: relative;
-  
-  height: 324px; */
-}
+
+/* .services__car-wrapper {
+  border: 1px solid red;
+  position: relative;  
+  height: 324px;
+} */
+
 .car-track {
   position: absolute;
   top: -52%;
   left: 14%;
   z-index: 1;
 }
+
 .car-hatchback {
   position: absolute;
   top: 15%;
   left: 33%;
   z-index: 5;
 }
+
 .services__wrapper-text {
   /* border: 1px solid orange; */
   padding-right: 30px;
@@ -58,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .services__text-title {
   text-transform: uppercase;
   color: #fff;
@@ -66,6 +70,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 .services__text-subtitle {
   margin: 0;
   padding: 0;
@@ -77,6 +82,7 @@
   font-weight: 400;
   /* line-height:  26.667% ; */
 }
+
 .services__button {
   padding: 21px 42px 25px 55px;
   border-radius: 10px;
@@ -94,6 +100,7 @@
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
 .services__icon_yellow {
   padding-left: 20px;
 }
