@@ -48,6 +48,7 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  justify-content: space-between;
 }
 
 .wrapper .menu ul li a {
