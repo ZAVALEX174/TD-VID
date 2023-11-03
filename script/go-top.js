@@ -29,3 +29,4 @@ function goTop() {
         setTimeout(goTop, 0); // входим в рекурсию
     }
 }
+

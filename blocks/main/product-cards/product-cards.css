@@ -1,6 +1,8 @@
 .product-cards {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  padding: 100px 0px;
 }
 
 /* .container-medium {
@@ -17,11 +19,55 @@
 } */
 
 .product-cards__cards {
+  position: relative;
   padding: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 26px; */
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 330px));
+  grid-template-rows: auto;
   gap: 26px;
-  /* flex-wrap: wrap; */
+}
+
+.product-cards__new {
+  position: absolute;
+  top: 0;
+  /* right: 0; */
+  padding: 6px 0px;
+  margin: 0;
+  display: inline-block;
+  max-width: 65px;
+  flex-shrink: 0;
+  border-radius: 10px 0px;
+  background: rgba(24, 148, 143, 0.5);
+  text-align: center;
+  color: #215c6a;
+  font-family: 'Jura', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.product-cards__sale {
+  position: absolute;
+  top: 60px;
+  /* left: 0; */
+  margin: 0;
+  padding: 6px 0px;
+  display: inline-block;
+  max-width: 65px;
+  flex-shrink: 0;
+  border-radius: 10px 0px;
+  background: #fab909;
+  color: #fff;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
 }
 
 .product-cards__card {
@@ -36,18 +82,25 @@
   flex-wrap: nowrap;
 }
 
+.product-cards__card:nth-child(n + 5) {
+  display: none;
+}
+.product-cards__card.is-visible {
+  display: block;
+}
+
 /* .product-cards__image {
 } */
 
 .product-cards__title {
   padding: 0;
-  max-width: 299px;
-  color: #215c6a;
+  max-width: 330px;
+  color: #004b5e;
   font-family: 'Jura', sans-serif;
-  font-size: 17px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 18px; /* 105.882% */
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* .product-cards__line {
@@ -168,6 +221,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: 16px; /* 88.889% */
+}
+
+.product-card__button-still.display-none {
+  display: none;
 }
 
 .product-card__button-still-icon {
