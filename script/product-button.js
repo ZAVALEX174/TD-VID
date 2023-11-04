@@ -17,14 +17,17 @@ console.log(inBasket);
 
 buttonIntoABasket.forEach((element) => {
     element.addEventListener('click', (e) => {
+        // const target = e.target;
         console.log("button clicked" + e.target.classList);
-        element.classList.add('product-card__in-bag-db');
-        element.textContent = "В корзине";
+        element.classList.toggle('product-card__in-bag');
+
+        // element.textContent = "В корзине";
     })
 })
 
-function changeSvg() {
-    buttonIntoABasket.forEach((item) => {
-        item.
-    })
-}
+// inBasket.forEach((item) => {
+//     item.addEventListener('click', (e) => {
+//         console.log("button clicked" + e.target.classList);
+//         item.classList.add('product-card__in-bag-db');
+//     })
+// })
