@@ -1,33 +1,15 @@
 const buttonIntoABasket = document.querySelectorAll('.product-card__bag');
-const inBasket = document.querySelectorAll('.product-card__in-bag');
-
-console.log(buttonIntoABasket);
-console.log(inBasket);
+// const inBasket = document.querySelectorAll('.product-card__in-bag');
+// const toggleText = document.querySelectorAll('.button-text');
 
 
-// buttonIntoABasket.forEach((element) => {
-//     element.addEventListener('click', (e) => {
-//         console.log("button clicked" + e.target.classList);
-//         element.classList.add('product-card__bag-dn');
-//         inBasket.forEach((el) => {
-//             el.classList.add('product-card__in-bag-db');
-//         })
-//     })
-// })
-
-buttonIntoABasket.forEach((element) => {
-    element.addEventListener('click', (e) => {
-        // const target = e.target;
-        console.log("button clicked" + e.target.classList);
-        element.classList.toggle('product-card__in-bag');
-
-        // element.textContent = "В корзине";
+buttonIntoABasket.forEach((item) => {
+    item.addEventListener('click', (evt) => {
+        console.log('kjdhda');
+        const text = evt.target.closest('.product-card__bag');
+        const buttonText = text.querySelector('.button-text').firstChild;
+        buttonText.data = buttonText.data == "В корзину" ? "В корзине" : "В корзину";
+        item.classList.toggle('product-card__in-bag');
     })
-})
 
-// inBasket.forEach((item) => {
-//     item.addEventListener('click', (e) => {
-//         console.log("button clicked" + e.target.classList);
-//         item.classList.add('product-card__in-bag-db');
-//     })
-// })
+});

@@ -157,7 +157,7 @@
 }
 
 .product-card__bag {
-  padding: 0;
+  padding: 0px 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -173,34 +173,6 @@
   line-height: 16px; /* 100% */
 }
 
-.product-card__bag.product-card__bag-none {
-  display: none;
-}
-
-/* .product-card__bag:hover {
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(
-    142deg,
-    #004b5e 21.17%,
-    rgba(69, 122, 139, 0.94) 132.69%
-  );
-  color: #fab909;
-  font-family: Jura;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  cursor: pointer;
-
-  .product-card__bag-icon {
-    width: 20px;
-    height: 15px;
-    background-image: url(../../../images/КорзинаБелая.svg);
-    background-repeat: no-repeat;
-  }
-} */
-/* fnshjnfdjk */
 .product-card__bag:hover {
   border: none;
   border-radius: 10px;
@@ -215,31 +187,21 @@
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
-  cursor: pointer;  
+  cursor: pointer;
 }
-.product-card__bag:hover svg path{
+.product-card__bag:hover svg path {
   fill: white;
 }
-.product-card__bag:hover svg circle{
+.product-card__bag:hover svg circle {
   fill: white;
-}
-
-/* gudkfpogpdo */
-.product-card__bag-icon {
-  margin-right: 10px;
-  width: 20px;
-  height: 15px;
-  background-image: url(../../../images/КорзинаCardЗеленая.svg);
-  background-repeat: no-repeat;
 }
 
 .product-card__in-bag {
-  padding: 0;
-  /* display: flex; */
-  display: none;
+  padding: 0px 5px;
+  display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 141px;
   border: none;
   color: #fab909;
@@ -256,35 +218,18 @@
   line-height: 16px; /* 100% */
   cursor: pointer;
 }
-
-.product-card__in-bag.product-card__in-bag-db {
-  display: flex;
+.product-card__in-bag svg path {
+  fill: #fab909;
 }
-
-.product-card__in-bag-icon {
-  margin-right: 10px;
-  width: 20px;
-  height: 15px;
-  background-image: url(../../../images/КорзинаЖелтая.svg);
-  background-repeat: no-repeat;
+.product-card__in-bag:hover svg path {
+  fill: #fab909;
 }
-
-/* .product-card__in-bag-db {
-  display: block;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(
-    142deg,
-    #004b5e 21.17%,
-    rgba(69, 122, 139, 0.94) 132.69%
-  );
-  color: #fab909;
-  font-family: 'Jura', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-} */
+.product-card__in-bag svg circle {
+  fill: #fab909;
+}
+.product-card__in-bag:hover svg circle {
+  fill: #fab909;
+}
 
 .product-card__button-still {
   margin: 0 auto;
