@@ -9,7 +9,7 @@ new Swiper('.categories__container',
         initialSlide: 0,
         slidesPerView: 4,
         slidesPerGroup: 4,
-        spaceBetween: 26,
+        spaceBetween: 24, //26
         // loop: true,
 
         // zoom image
