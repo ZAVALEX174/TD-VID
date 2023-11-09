@@ -15,8 +15,10 @@
   z-index: 10;
 }
 
-/* .container-medium {
-} */
+.container-medium{
+  box-sizing: border-box;
+  max-width: 1400px;
+}
 
 .slider__container {
   display: flex;

@@ -1,4 +1,4 @@
-new Swiper('.swiper-container',
+new Swiper('.container-medium1 ',
     {
         // стрелки
         // navigation: {
@@ -11,6 +11,10 @@ new Swiper('.swiper-container',
         // slidesPerGroup: 4,
         // spaceBetween: 27,
         // loop: true,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        initialSlide: 0,
+
 
         // zoom image
         // zoom: {
@@ -68,10 +72,8 @@ new Swiper('.swiper-container',
             sensitivity: 1,
             // Класс объеката на котором 
             // будет срабатывать прокрутка мышью
-            eventsTarget: '.image-slider',
+            eventsTarget: '.promotional-product-slider',
         },
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        initialSlide: 0,
+        
 
     });
