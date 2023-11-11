@@ -149,39 +149,44 @@ b {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
   /* align-items: center;
   justify-content: center; */
-  transform: translateY(-220px);
+  transform: translateY(-300px);
 
   border: 1px solid;
 }
 .full {
   width: 100%;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .container-medium1 {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   overflow-x: hidden;
 }
 /* .swiper-container {
 } */
 .promotional-product-wrapper {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 /* .swiper-wrapper {
 } */
 .promotional-product-slider {
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
 }
 /* .swiper-slide {
 } */
 .simka {
-  border: 1px solid yellow;
+  /* после поправить margin */
+  margin: 100px auto;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: row;
   position: relative;
+
+  z-index: 1;
 }
 .simka::before {
   content: '';
@@ -205,9 +210,12 @@ b {
   line-height: normal;
 }
 .title {
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px 32px 32px;
+  max-width: 720px;
 }
 .promotional-product__title {
   color: #fff;
@@ -226,8 +234,9 @@ b {
   align-items: center;
 }
 .promotional-product__subtitle {
+  padding: 0;
   max-width: 593px;
-  /* color: #fff; раскоммититть*/
+  color: #fff;
   font-family: 'Jura';
   font-size: 18px;
   font-style: normal;
@@ -237,7 +246,9 @@ b {
 .promotional-product__button {
   display: flex;
   flex-direction: row;
-  padding: 15px 0 15px 39px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 5px 15px 39px;
   text-decoration: none;
   color: #fff;
   font-family: 'Jura';
@@ -254,19 +265,34 @@ b {
 }
 .promotional-product__icon {
   display: inline-block;
-  padding: 0 25px;
-  width: 16px;
-  height: 16px;
+  padding: 0 15px 0 20px;
+  width: 10px;
+  height: 10px;
   text-align: center;
 }
 .promotional-product__variant_blur {
-  border: 1px solid purple;
+  position: absolute;
+  top: -18%;
+  right: 8%;
+  z-index: -10;
+
+  /* border: 1px solid purple; */
 }
 .promotional-product__variant_canister {
-  border: 1px solid purple;
+  position: absolute;
+  top:-52%;
+  right: 30%;
+  z-index: 3;
+
+  /* border: 1px solid purple; */
 }
 .promotional-product__variant_barrel {
-  border: 1px solid purple;
+  position: absolute;
+  top: -31%;
+  right: 13%;
+  z-index: 5;
+
+  /* border: 1px solid purple; */
 }
 .promotional-product-pagination {
   border: 1px solid peru;
