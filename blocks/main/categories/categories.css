@@ -16,7 +16,7 @@
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  min-height: 480px;
+  /* min-height: 480px; */
 }
 
 .categories__icon {
@@ -34,6 +34,7 @@
 }
 
 .categories__container {
+  padding-top: 10px;
   max-width: 1400px;
   display: flex;
   flex-direction: row;
@@ -43,6 +44,7 @@
 }
 
 .categories__button {
+  padding-top: 20px;
   padding-right: 60px;
   padding-bottom: 22px;
   display: flex;

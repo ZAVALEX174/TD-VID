@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: translateY(-330px);
+  transform: translateY(-361px);
 }
 
 .full {
@@ -85,7 +85,7 @@ b {
 
 .promotional-product__subtitle {
   padding: 0;
-  max-width: 593px;
+  max-width: 528px;
   color: #fff;
   font-family: 'Jura';
   font-size: 18px;
@@ -126,21 +126,21 @@ b {
 .promotional-product__variant_blur {
   position: absolute;
   top: -18%;
-  right: 6%;
+  right: 8%;
   z-index: -10;
 }
 
 .promotional-product__variant_canister {
   position: absolute;
   top: -57%;
-  right: 28%;
+  right: 30%;
   z-index: 3;
 }
 
 .promotional-product__variant_barrel {
   position: absolute;
   top: -35%;
-  right: 11%;
+  right: 13%;
   z-index: 5;
 }
 
@@ -150,7 +150,7 @@ b {
   max-width: 200px;
   height: 20px;
   position: absolute;
-  top: 88%;
+  top: 90%;
   right: 0%;
   bottom: 0%;
   left: 85.9%;
