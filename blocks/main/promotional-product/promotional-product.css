@@ -153,12 +153,13 @@ b {
   justify-content: center;
   /* align-items: center;
   justify-content: center; */
-  transform: translateY(-300px);
+  transform: translateY(-330px);
 
   border: 1px solid;
 }
 .full {
   width: 100%;
+  position: relative;
 
   /* border: 1px solid red; */
 }
@@ -180,7 +181,7 @@ b {
 } */
 .simka {
   /* после поправить margin */
-  margin: 150px auto;
+  margin: 150px auto 140px;
   /* border: 1px solid yellow; */
   display: flex;
   flex-direction: row;
@@ -214,7 +215,7 @@ b {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 32px 32px;
+  padding: 0px 32px 29px;
   max-width: 720px;
 }
 .promotional-product__title {
@@ -273,29 +274,68 @@ b {
 .promotional-product__variant_blur {
   position: absolute;
   top: -18%;
-  right: 8%;
+  right: 6%;
   z-index: -10;
 
   /* border: 1px solid purple; */
 }
 .promotional-product__variant_canister {
   position: absolute;
-  top:-52%;
-  right: 30%;
+  top: -57%;
+  right: 28%;
   z-index: 3;
 
   /* border: 1px solid purple; */
 }
 .promotional-product__variant_barrel {
   position: absolute;
-  top: -31%;
-  right: 13%;
+  top: -35%;
+  right: 11%;
   z-index: 5;
 
   /* border: 1px solid purple; */
 }
-.promotional-product-pagination {
+.swiper-pagination.promotional-product-pagination {
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
+  height: 20px;
+  /*  должно быть
+  width: 192px;
+  height: 3px;
+  flex-shrink: 0; */
   border: 1px solid peru;
+  position: absolute;
+  top: 88%;
+  right: 0%;
+  bottom: 0%;
+  left: 85.9%;
 }
 /* .swiper-pagination {
 } */
+.swiper-pagination-bullet {
+  margin: 0;
+  padding: 0;
+  width: 42px;
+  height: 3px;
+  border-radius: 0px;
+  /* background: #ced6dc; */
+ 
+  
+  /* #26AAAB */
+}
+.swiper-pagination-bullet-active {
+  /* background: #ced6dc; */
+  /* background-color: #26aaab !important; */
+  background: linear-gradient(90deg, #26aaab 70%, #ced6dc 70% 100%);
+}
+/* .swiper-pagination-bullet-active::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 28px;
+  width: 28px;
+  background: #26aaab;
+  z-index: -10;
+} 
+*/

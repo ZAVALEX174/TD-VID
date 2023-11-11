@@ -11,11 +11,13 @@
     rgba(0, 93, 99, 0.7) 100%
   );
   backdrop-filter: blur(7.5px);
-  transform: translateY(-208px);
+  transform: translateY(-135px);
+  max-width: 1400px;
+  width: 100%;
   z-index: 10;
 }
 
-.container-medium{
+.container-medium {
   box-sizing: border-box;
   max-width: 1400px;
 }

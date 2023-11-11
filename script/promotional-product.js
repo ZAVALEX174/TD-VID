@@ -74,6 +74,9 @@ new Swiper('.container-medium1 ',
             // будет срабатывать прокрутка мышью
             eventsTarget: '.promotional-product-slider',
         },
-        
 
+
+        a11y: {
+            enabled: true,
+        }
     });
