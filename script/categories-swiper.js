@@ -12,15 +12,6 @@ new Swiper('.categories__container',
         spaceBetween: 27, //26
         // loop: true,
 
-        // zoom image
-        // zoom: {
-        //     //максимальное увеличение
-        //     maxRatio: 1.1,
-        //     //минимальное увеличение
-        //     minRatio: 0.5,
-
-        // },
-
     });
 
 

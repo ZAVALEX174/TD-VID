@@ -1,7 +1,4 @@
 const buttonIntoABasket = document.querySelectorAll('.product-card__bag');
-// const inBasket = document.querySelectorAll('.product-card__in-bag');
-// const toggleText = document.querySelectorAll('.button-text');
-
 
 buttonIntoABasket.forEach((item) => {
     item.addEventListener('click', (evt) => {

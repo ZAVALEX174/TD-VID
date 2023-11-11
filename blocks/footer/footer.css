@@ -1,17 +1,13 @@
 .footer {
   display: flex;
   flex-direction: column;
-  /* max-width: 1920px; */
   align-items: center;
-  /* border: 2px solid rgb(192, 241, 16); */
 }
 
 .footer-wrapper {
-  /* max-width: 1400px; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 .footer__wrapper-up {
@@ -80,20 +76,6 @@
   display: flex;
   text-decoration: none;
 }
-
-/* .contact__icon {
-  width: 22px;
-    height: 22px;
-} */
-
-/* .phone-call {
-} */
-
-/* .number {
-} */
-
-/* .text {
-} */
 
 .footer__wrapper-down {
   display: flex;
