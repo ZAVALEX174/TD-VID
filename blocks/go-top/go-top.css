@@ -40,3 +40,9 @@
     height: 40px;
   }
 }
+
+@media (max-width: 1017px) {
+  .go-top {
+    display: none;
+  }
+}

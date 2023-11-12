@@ -341,6 +341,7 @@
 
   .categories__title {
     font-size: 22px;
+    max-width: 300px;
   }
 
   .categories__cards {
