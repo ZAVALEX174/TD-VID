@@ -226,3 +226,79 @@
     max-width: 1200px;
   }
 }
+
+@media (max-width: 1317px) {
+  .nav {
+    max-width: 1080px;
+  }
+
+  .footer-menu__list {
+    column-gap: 15px;
+  }
+
+  .footer-number {
+    font-size: 20px;
+  }
+
+  .footer__wrapper-down_address {
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: 1197px) {
+  .nav {
+    max-width: 900px;
+  }
+
+  .footer-menu__list {
+    column-gap: 5px;
+  }
+
+  .contact__list {
+    padding-left: 10px;
+    column-gap: 20px;
+  }
+
+  .footer-number {
+    font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .footer__wrapper-down_address {
+    max-width: 900px;
+  }
+
+  .address__office {
+    font-size: 14px;
+  }
+
+  .logo__footer {
+    width: 150px;
+    padding-right: 50px;
+    margin-top: -10px;
+  }
+
+  .copyright__text {
+    font-size: 13px;
+  }
+
+  .opening-hours__text {
+    font-size: 14px;
+  }
+
+  .opening-hours__text_highlight {
+    font-size: 14px;
+  }
+
+  .opening-hours__text_highlight2 {
+    font-size: 14px;
+  }
+
+  .logo__developer {
+    width: 100px;
+    margin-top: -25px;
+  }
+}

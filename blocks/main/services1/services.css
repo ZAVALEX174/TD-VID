@@ -121,4 +121,78 @@
     left: 25%;
   }
 }
-/* до 1280 норм */
+
+@media (max-width: 1317px) {
+  .car-track {
+    width: 602px;
+    top: -38%;
+    left: 8%;
+  }
+
+  .car-hatchback {
+    width: 489px;
+    top: 21%;
+    left: 33%;
+  }
+
+  .services__text-title {
+    font-size: 40px;
+  }
+
+  .services__text-subtitle {
+    font-size: 70px;
+  }
+
+  .services__button {
+    padding: 16px 37px 20px 50px;
+    font-size: 20px;
+  }
+
+  .services__container {
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: 1197px) {
+  .services {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+    align-items: center;
+  }
+
+  .services__background {
+    min-height: 250px;
+  }
+
+  .car-track {
+    width: 502px;
+    top: -58%;
+    left: 8%;
+  }
+
+  .car-hatchback {
+    width: 389px;
+    top: 12%;
+    left: 32%;
+  }
+
+  .services__text-title {
+    font-size: 36px;
+  }
+
+  .services__text-subtitle {
+    font-size: 60px;
+  }
+
+  .services__button {
+    padding: 10px 31px 14px 44px;
+    font-size: 18px;
+  }
+  .services__container {
+    max-width: 900px;
+  }
+}

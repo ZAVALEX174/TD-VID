@@ -3,16 +3,6 @@
   padding-bottom: 75px;
 }
 
-
-@media (max-width: 1517px) {
-  .about {
-    max-width: 1200px;
-    width: 100%;
-   
-  }
-}
-
-
 /* .container-medium {
 } */
 
@@ -78,3 +68,34 @@
 
 /* .promotional-product__icon_green {
 } */
+
+@media (max-width: 1517px) {
+  .about {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1317px) {
+  .about {
+    max-width: 1080px;
+  }
+
+  .about__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1197px) {
+  .about {
+    max-width: 900px;
+  }
+
+  .about__title {
+    font-size: 26px;
+  }
+
+  .about__text {
+    font-size: 16px;
+  }
+}

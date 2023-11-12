@@ -93,3 +93,17 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 1317px) {
+  .slider-menu__list {
+    padding: 0 13px 0 13px;
+  }
+
+  .slider-menu__line {
+    padding-right: 3px;
+  }
+
+  .slider-menu__link {
+    padding-right: 3px;
+  }
+}

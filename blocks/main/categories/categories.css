@@ -103,12 +103,12 @@
 }
 
 .card-image__title {
-  width: 330px;
+  max-width: 330px;
   height: 378px;
 }
 
 .categories__card:hover.card-image__title {
-  width: 330px;
+  max-width: 330px;
   height: 330px;
 }
 
@@ -273,5 +273,63 @@
 
   .categories__line-bottom {
     max-width: 280px;
+  }
+}
+
+@media (max-width: 1317px) {
+  .categories {
+    max-width: 1200px;
+  }
+
+  .categories__container {
+    max-width: 1080px;
+    width: 100%;
+  }
+
+  .categories__text {
+    margin-top: 35px;
+    padding: 0 0 10px 0;
+  }
+
+  .card-image__title {
+    height: 330px;
+  }
+}
+
+@media (max-width: 1197px) {
+  .categories {
+    max-width: 1020px;
+  }
+
+  .categories__card {
+    height: 290px;
+  }
+
+  .categories__card-title {
+    padding: 10px 11px 10px 11px;
+    font-size: 16px;
+  }
+
+  .categories__title {
+    font-size: 26px;
+  }
+
+  .categories__container {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .categories__image {
+    max-width: 180px;
+    padding-bottom: 70px;
+  }
+
+  .card-image__subtitle {
+    padding: 10px 10px;
+  }
+
+  .categories__card:hover .categories__image {
+    max-width: 190px;
+    max-height: 230px;
   }
 }
