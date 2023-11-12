@@ -7,14 +7,6 @@
   padding-bottom: 31px;
 }
 
-@media (max-width: 1517px) {
-  .uniqueness {
-    max-width: 1200px;
-    width: 100%;
-   
-  }
-}
-
 .uniqueness__cards {
   display: flex;
   flex-direction: row;
@@ -45,4 +37,11 @@
   font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 88.889% */
+}
+
+@media (max-width: 1517px) {
+  .uniqueness {
+    max-width: 1200px;
+    width: 100%;
+  }
 }

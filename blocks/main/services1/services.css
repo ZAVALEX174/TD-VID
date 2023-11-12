@@ -50,27 +50,6 @@
   z-index: 5;
 }
 
-@media (max-width: 1899px) {
-  .car-track {
-    left: 10%;
-  }
-
-  .car-hatchback {
-    left: 29%;
-  }
-}
-
-@media (max-width: 1660px) {
-  .car-track {
-    left: 6%;
-  }
-
-  .car-hatchback {
-    left: 25%;
-  }
-}
-/* до 1280 норм */
-
 .services__wrapper-text {
   padding-right: 8px;
   max-width: 410px;
@@ -122,3 +101,24 @@
 .services__icon_yellow {
   padding-left: 20px;
 }
+
+@media (max-width: 1899px) {
+  .car-track {
+    left: 10%;
+  }
+
+  .car-hatchback {
+    left: 29%;
+  }
+}
+
+@media (max-width: 1660px) {
+  .car-track {
+    left: 6%;
+  }
+
+  .car-hatchback {
+    left: 25%;
+  }
+}
+/* до 1280 норм */

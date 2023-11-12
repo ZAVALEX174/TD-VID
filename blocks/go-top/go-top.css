@@ -14,21 +14,29 @@
   z-index: 100;
 }
 
-@media (max-width: 1636px) {
-  .go-top {
-    right: 1%;
-  }
-}
-@media (max-width: 1560px) {
-  .go-top {
-    right: 0;
-  }
-}
-
 .go-top:hover {
   opacity: 0.6;
 }
 
 .go-top--show {
   display: block;
+}
+
+@media (max-width: 1636px) {
+  .go-top {
+    right: 1%;
+  }
+}
+
+@media (max-width: 1560px) {
+  .go-top {
+    right: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .go-top {
+    width: 40px;
+    height: 40px;
+  }
 }
