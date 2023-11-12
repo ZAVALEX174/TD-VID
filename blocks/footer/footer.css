@@ -308,11 +308,15 @@
     display: none;
   }
 
-  .footer__address {
+  .opening-hours {
     display: none;
   }
 
-  .opening-hours {
-    display: none;
+  .footer__wrapper-down_address {
+    max-width: 768px;
+  }
+
+  .nav {
+    max-width: 768px;
   }
 }

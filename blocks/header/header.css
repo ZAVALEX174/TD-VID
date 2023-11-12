@@ -237,6 +237,10 @@ ul {
   .menu__item {
     margin-right: 20px;
   }
+
+  .menu__item::before {
+    bottom: -30px;
+  }
 }
 
 @media (max-width: 1197px) {
@@ -251,6 +255,7 @@ ul {
 
   .logo {
     width: 150px;
+    transform: translateY(-10px);
   }
 
   .menu__item {
@@ -268,5 +273,23 @@ ul {
   .user-menu__icon_border {
     width: 51px;
     height: 40px;
+  }
+
+  .menu__item::before {
+    bottom: -21px;
+  }
+}
+
+@media (max-width: 1017px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .phone-call {
+    display: none;
+  }
+
+  .menu__item::before {
+    bottom: -21px;
   }
 }
