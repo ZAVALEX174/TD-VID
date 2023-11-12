@@ -5,6 +5,14 @@
   padding: 100px 0px 82px;
 }
 
+@media (max-width: 1517px) {
+  .product-cards {
+    max-width: 1220px;
+    width: 100%;
+   
+  }
+}
+
 /* .container-medium {
   border: 1px solid blue;
 } */

@@ -29,7 +29,7 @@
   background-size: 100% 100%;
   background: url('../../../images/Baner2.png');
   background-repeat: no-repeat;
-  
+
   background-blend-mode: lighten;
   background-size: 100% 90%;
   position: relative;
@@ -49,6 +49,27 @@
   left: 33%;
   z-index: 5;
 }
+
+@media (max-width: 1899px) {
+  .car-track {
+    left: 10%;
+  }
+
+  .car-hatchback {
+    left: 29%;
+  }
+}
+
+@media (max-width: 1660px) {
+  .car-track {
+    left: 6%;
+  }
+
+  .car-hatchback {
+    left: 25%;
+  }
+}
+/* до 1280 норм */
 
 .services__wrapper-text {
   padding-right: 8px;

@@ -9,6 +9,14 @@
   width: 100%;
 }
 
+@media (max-width: 1517px) {
+  .categories {
+    max-width: 1320px;
+    width: 100%;
+   
+  }
+}
+
 .categories__container-full {
   display: flex;
   flex-direction: column;
@@ -42,6 +50,15 @@
   justify-content: center;
   overflow-x: hidden;
 }
+
+@media (max-width: 1517px) {
+  .categories__container {
+    max-width: 1200px;
+    width: 100%;
+   
+  }
+}
+
 
 .categories__button {
   padding-top: 20px;

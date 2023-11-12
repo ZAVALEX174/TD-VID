@@ -7,6 +7,14 @@
   padding-bottom: 31px;
 }
 
+@media (max-width: 1517px) {
+  .uniqueness {
+    max-width: 1200px;
+    width: 100%;
+   
+  }
+}
+
 .uniqueness__cards {
   display: flex;
   flex-direction: row;

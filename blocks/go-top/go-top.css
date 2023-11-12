@@ -11,6 +11,18 @@
   top: 10%;
   cursor: pointer;
   display: none;
+  z-index: 100;
+}
+
+@media (max-width: 1636px) {
+  .go-top {
+    right: 1%;
+  }
+}
+@media (max-width: 1560px) {
+  .go-top {
+    right: 0;
+  }
 }
 
 .go-top:hover {

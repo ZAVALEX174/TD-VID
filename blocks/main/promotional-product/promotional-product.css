@@ -9,6 +9,13 @@
   transform: translateY(-361px);
 }
 
+@media (max-width: 1517px) {
+  .promotional-product {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
 .full {
   width: 100%;
   position: relative;
@@ -154,6 +161,12 @@ b {
   right: 0%;
   bottom: 0%;
   left: 85.9%;
+}
+
+@media (max-width: 1517px) {
+  .swiper-pagination.promotional-product-pagination {
+    left: 83.9%;
+  }
 }
 
 /* .swiper-pagination {
