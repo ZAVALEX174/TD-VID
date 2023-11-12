@@ -107,3 +107,11 @@
     padding-right: 3px;
   }
 }
+
+@media (max-width: 1017px) {
+  .slider-menu__link {
+    font-size: 12px;
+  }
+
+  
+}

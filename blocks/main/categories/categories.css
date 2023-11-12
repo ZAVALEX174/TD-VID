@@ -333,3 +333,44 @@
     max-height: 230px;
   }
 }
+
+@media (max-width: 1017px) {
+  .categories {
+    max-width: 900px;
+  }
+
+  .categories__title {
+    font-size: 22px;
+  }
+
+  .categories__cards {
+    max-width: 768px;
+  }
+
+  .card-image__title {
+    padding-bottom: 45px;
+    max-width: 170px;
+    height: 300px;
+  }
+
+  .categories__container {
+    max-width: 768px;
+    width: 100%;
+  }
+  .categories__card {
+    max-width: 200px;
+  }
+
+  .categories__image {
+    max-width: 130px;
+    padding-bottom: 70px;
+  }
+
+  .categories__button-card {
+    padding: 5px 5px 5px 15px;
+  }
+
+  .categories__text {
+    font-size: 13px;
+  }
+}

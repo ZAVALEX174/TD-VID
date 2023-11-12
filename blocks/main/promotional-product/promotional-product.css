@@ -267,3 +267,30 @@ b {
     left: 77.9%;
   }
 }
+
+@media (max-width: 1017px) {
+  .promotional-product {
+    max-width: 768px;
+  }
+
+  .promotional-product__variant_blur {
+    display: none;
+  }
+
+  .promotional-product__variant_barrel {
+    width: 280px;
+    top: -21%;
+    right: -6%;
+  }
+
+  .promotional-product__variant_canister {
+    width: 190px;
+    top: -23%;
+    right: 15%;
+  }
+
+  .swiper-pagination.promotional-product-pagination {
+    top: 85%;
+    left: 74.5%;
+}
+}

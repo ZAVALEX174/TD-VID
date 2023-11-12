@@ -302,3 +302,17 @@
     margin-top: -25px;
   }
 }
+
+@media (max-width: 1017px) {
+  .email {
+    display: none;
+  }
+
+  .footer__address {
+    display: none;
+  }
+
+  .opening-hours {
+    display: none;
+  }
+}

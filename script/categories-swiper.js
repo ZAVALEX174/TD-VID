@@ -8,12 +8,23 @@ new Swiper('.categories__container',
 
         initialSlide: 0,
         slidesPerView: 4,
-        slidesPerGroup: 4,
-        spaceBetween: 27, //26
+        slidesPerGroup: 2,
+        spaceBetween: 25, //26
         // loop: true,
 
+        // breacpoints: {
+        //     1017: {
+        //         slidesPerView: 4,
+        //         slidesPerGroup: 2,
+        //         // spaceBetween: 25,
+        //     },
+        //     768: {
+        //         slidesPerView: 3,
+        //         slidesPerGroup: 2,
+        //         // spaceBetween: 10,
+        //     }
+        // },
     });
 
 
 
-    
