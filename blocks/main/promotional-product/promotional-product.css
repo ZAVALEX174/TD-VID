@@ -292,5 +292,17 @@ b {
   .swiper-pagination.promotional-product-pagination {
     top: 85%;
     left: 74.5%;
+  }
 }
+
+@media (max-width: 861px) {
+  .promotional-product__variant_barrel {
+    display: none;
+  }
+
+  .promotional-product__variant_canister {
+    width: 190px;
+    top: -23%;
+    right: 5%;
+  }
 }

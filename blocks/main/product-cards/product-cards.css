@@ -346,7 +346,7 @@
   }
 }
 
-@media (max-width: 1197px) {
+@media (max-width: 1017px) {
   .product-cards {
     max-width: 768px;
   }
