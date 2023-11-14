@@ -42,6 +42,18 @@
   max-width: 760px;
   width: 100%;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
 /* 
 ul {
   padding: 0 43px 0 64px;
@@ -310,5 +322,31 @@ ul {
 
   .wrapper {
     margin-top: 0px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu.active {
+    display: block;
+  }
+
+  .menu__list {
+    display: flex;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    width: 20%;
+    height: 30%;
+    padding: 15px;
+    background: #000;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    z-index: 100;
+  }
+
+  .menu__list.active {
+    transform: translateX(0);
   }
 }
