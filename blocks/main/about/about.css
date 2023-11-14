@@ -117,3 +117,24 @@
     width: 300px;
   }
 }
+
+@media (max-width: 861px) {
+  .about {
+    max-width: 480px;
+  }
+
+  .about__title {
+    font-size: 25px;
+  }
+
+  .about__container {
+    display: block;
+    padding: 27px 50px 25px 45px;
+  }
+
+  .logo__big {
+    width: 354px;
+    margin-top: -44px;
+    padding-bottom: 14px;
+  }
+}

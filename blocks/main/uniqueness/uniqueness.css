@@ -83,3 +83,20 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 861px) {
+  .uniqueness {
+    max-width: 480px;
+    margin-top: -190px;
+  }
+
+  .uniqueness__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .uniqueness__title {
+    font-size: 16px;
+  }
+}

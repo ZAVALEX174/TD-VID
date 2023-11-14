@@ -1,8 +1,8 @@
 const showMore = document.querySelector('.product-card__button-still');
-console.log(showMore);
+// console.log(showMore);
 
 const productLenght = document.querySelectorAll('.product-cards__card').length;
-console.log(productLenght);
+// console.log(productLenght);
 
 let items = 4;
 
@@ -13,7 +13,7 @@ showMore.addEventListener('click', () => {
 
 	visibleItems.forEach(el => el.classList.add('is-visible'));
 
-	if(visibleItems.length === productLenght) {
+	if (visibleItems.length === productLenght) {
 		showMore.classList.add('display-none');
 	}
 });

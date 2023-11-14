@@ -3,7 +3,7 @@ const slider = document.querySelector('.swiper-container')
 let mySwiper;
 
 function desctopSwiper() {
-    if (window.innerWidth > 861 && slider.dataset.desctop == 'true') {
+    if (window.innerWidth > 860 && slider.dataset.desctop == 'true') {
         mySwiper = new Swiper('.categories__container',
             {
                 // стрелки
@@ -12,7 +12,7 @@ function desctopSwiper() {
                     nextEl: '.categories__next'
                 },
 
-                initialSlide: 0,
+                // initialSlide: 0,
                 slidesPerView: 4,
                 slidesPerGroup: 2,
                 spaceBetween: 25, //26
@@ -43,13 +43,14 @@ function desctopSwiper() {
         slider.dataset.desctop = 'false';
     }
 
-    if (window.innerWidth <= 861) {
+    if (window.innerWidth <= 860) {
         slider.dataset.desctop = 'true';
 
         if (slider.classList.contains('swiper-initialized')) {
 
             mySwiper.destroy();
         }
+
     }
 }
 

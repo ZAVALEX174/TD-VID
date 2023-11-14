@@ -217,5 +217,37 @@
   .services__container {
     padding: 10px 20px 60px 5px;
     max-width: 700px;
+  }
 }
+
+@media (max-width: 861px) {
+  .services__container {
+    max-width: 480px;
+    padding: 10px 20px 50px 5px;
+  }
+
+  .car-track {
+    width: 240px;
+    top: 19%;
+    left: 1%;
+  }
+
+  .car-hatchback {
+    width: 197px;
+    top: 53%;
+    left: 20%;
+  }
+
+  .services__text-title {
+    font-size: 30px;
+  }
+
+  .services__text-subtitle {
+    font-size: 52px;
+  }
+
+  .services__button {
+    padding: 6px 31px 8px 44px;
+    font-size: 16px;
+  }
 }

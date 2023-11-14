@@ -111,7 +111,11 @@
 @media (max-width: 1017px) {
   .slider-menu__link {
     font-size: 12px;
-  }
+  }  
+}
 
-  
+@media (max-width: 861px) {
+  .slider {
+    display: none;
+  }  
 }
