@@ -14,7 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.css" />
     <link rel="stylesheet" href="./style/index.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
     <title>ТД ВИД</title>
   </head>
   <body>
@@ -31,10 +32,9 @@
                   srcset="" />
               </a>
               <nav class="menu">
-
                 <div class="hamburger-menu">
                   <div class="hamburger"></div>
-              </div>
+                </div>
 
                 <ul class="menu__list">
                   <li class="menu__item">
@@ -426,12 +426,10 @@
               class="categories__icon_green"
           /></a>
           <div class="categories__container-full">
-            <div
-              class="categories__container swiper-container"
-              data-desctop="true">
+            <div class="categories__container swiper">
               <div class="categories__cards swiper-wrapper">
                 <div class="categories__card swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">Моторные масла</h3>
                       <span class="categories__line-bottom"> </span>
@@ -457,8 +455,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">
                         Гидравлические масла
@@ -486,8 +484,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">
                         Трансмиссионные масла
@@ -515,8 +513,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">Вакуумные масла</h3>
                       <span class="categories__line-bottom"> </span>
@@ -542,8 +540,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">
                         Гидравлические масла
@@ -571,8 +569,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">
                         Гидравлические масла
@@ -600,8 +598,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="categories__card card-image__zoom swiper-slide">
-                  <div class="card-image swiper-zoom-container">
+                <div class="categories__card swiper-slide">
+                  <div class="card-image">
                     <div class="card-image__title">
                       <h3 class="categories__card-title">
                         Гидравлические масла
@@ -1189,11 +1187,8 @@
 
       <footer class="footer">
         <div class="footer-wrapper">
-
           <div class="footer__wrapper-up">
-
             <div class="nav">
-
               <nav class="footer__menu">
                 <ul class="footer-menu__list">
                   <li class="footer-munu__item">
@@ -1260,14 +1255,11 @@
                   </li>
                 </ul>
               </nav>
-
             </div>
-
           </div>
 
           <div class="footer__wrapper-down">
             <article class="footer__wrapper-down_address">
-
               <div class="wrap111">
                 <address class="footer__address">
                   <img
@@ -1308,19 +1300,18 @@
                   alt="Логотип компании разработчика"
                   srcset="" />
               </article>
-
-            </article>            
+            </article>
           </div>
         </div>
       </footer>
       <div class="go-top"></div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script/burger.js"></script>
+    <script src="./script/categories-swiper.js"></script>
     <script src="./script/promotional-product.js"></script>
     <script src="./script/go-top.js"></script>
     <script src="./script/show-more.js"></script>
     <script src="./script/product-button.js"></script>
-    <script src="./script/categories-swiper.js"></script>
   </body>
 </html>

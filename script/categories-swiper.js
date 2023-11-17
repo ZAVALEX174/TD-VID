@@ -1,66 +1,40 @@
-const slider = document.querySelector('.swiper-container')
+const swiper = new Swiper('.swiper', {
+    // Настройки слайдера
 
-let mySwiper;
+    // стрелки
+    navigation: {
+        prevEl: '.categories__prev',
+        nextEl: '.categories__next'
+    },
 
-function desctopSwiper() {
-    if (window.innerWidth > 860 && slider.dataset.desctop == 'true') {
-        mySwiper = new Swiper('.categories__container',
-            {
-                // стрелки
-                navigation: {
-                    prevEl: '.categories__prev',
-                    nextEl: '.categories__next'
-                },
-
-                // initialSlide: 0,
-                slidesPerView: 4,
-                slidesPerGroup: 2,
-                spaceBetween: 25, //26
-                watchOverflow: true,
-                // loop: true,
-
-                // breakpoints: {
-                //     320: {
-                //         slidesPerView: 800,
-                //         // slidesPerGroup: 12,
-                //         spaceBetween: 5,
-                //     },
-
-                //   860: {
-                //         slidesPerView: 4,
-                //         // slidesPerGroup: 12,
-                //         spaceBetween: 10,
-                //     },
-
-                //     1017: {
-                //         slidesPerView: 4,
-                //         // slidesPerGroup: 2,
-                //         spaceBetween: 25,
-                //     }
-                // },
-            });
-
-        slider.dataset.desctop = 'false';
-    }
-
-    if (window.innerWidth <= 860) {
-        slider.dataset.desctop = 'true';
-
-        if (slider.classList.contains('swiper-initialized')) {
-
-            mySwiper.destroy();
-        }
-
-    }
-}
-
-desctopSwiper();
-
-window.addEventListener('resize', () => {
-    desctopSwiper();
-})
+    // initialSlide: 0,
+    slidesPerView: 4,
+    slidesPerGroup: 2,
+    spaceBetween: 25, //26
+    watchOverflow: true,
+    // loop: true,
+    // enabled: true,
 
 
+    breakpoints: {
+        320: {
+            slidesPerView: 4,
+            // slidesPerGroup: 4,
+            spaceBetween: 9,
+            enabled: false,
+        },
 
+        860: {
+            slidesPerView: 4,
+            // slidesPerGroup: 12,
+            spaceBetween: 25,
+            enabled: true,
+        },
 
-
+            // 1017: {
+            //     slidesPerView: 4,
+            //     // slidesPerGroup: 2,
+            //     spaceBetween: 25,
+            // }
+        },
+    });
