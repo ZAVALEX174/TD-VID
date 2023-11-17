@@ -26,12 +26,8 @@ new Swiper('.container-medium1 ',
         },
         // Управление колесом мыши
         mousewheel: {
-            // чувствительность колеса мыши
-            sensitivity: 1,
-            // Класс объеката на котором 
-            // будет срабатывать прокрутка мышью
-            eventsTarget: '.promotional-product-slider',
-        },
+            invert: true,
+          },
 
         a11y: {
             enabled: true,

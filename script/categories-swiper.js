@@ -8,33 +8,43 @@ const swiper = new Swiper('.swiper', {
     },
 
     // initialSlide: 0,
-    slidesPerView: 4,
-    slidesPerGroup: 2,
-    spaceBetween: 25, //26
-    watchOverflow: true,
+    // slidesPerView: 4,
+    // slidesPerGroup: 2,
+    // spaceBetween: 25, //26
+    // watchOverflow: true,
     // loop: true,
     // enabled: true,
-
+    keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+        mousewheel: {
+            invert: true,
+        },
+    },
 
     breakpoints: {
         320: {
-            slidesPerView: 4,
+            initialSlide: 0,
+            slidesPerView: 1,
             // slidesPerGroup: 4,
-            spaceBetween: 9,
+            // spaceBetween: 9,
             enabled: false,
+            
         },
 
-        860: {
+        861: {
+            initialSlide: 0,
             slidesPerView: 4,
             // slidesPerGroup: 12,
-            spaceBetween: 25,
+            // spaceBetween: 25,
             enabled: true,
+
         },
 
-            // 1017: {
-            //     slidesPerView: 4,
-            //     // slidesPerGroup: 2,
-            //     spaceBetween: 25,
-            // }
-        },
-    });
+        // 1017: {
+        //     slidesPerView: 4,
+        //     // slidesPerGroup: 2,
+        //     spaceBetween: 25,
+        // }
+    },
+});
