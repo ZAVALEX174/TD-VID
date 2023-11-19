@@ -311,7 +311,7 @@ b {
 @media (max-width: 861px) {
   .promotional-product {
     transform: translateY(-208px);
-}
+  }
 
   .promotional-product {
     max-width: 480px;
@@ -338,9 +338,33 @@ b {
     max-width: 250px;
     top: 90%;
     left: 30%;
+  }
+
+  .simka {
+    margin: 40px auto 40px;
+  }
 }
 
-.simka {
-  margin: 40px auto 40px;
-}
+@media (max-width: 861px) {
+  .promotional-product {
+    max-width: 375px;
+  }
+
+  .title {
+    padding-top: 10px;
+  }
+
+  .swiper-pagination.promotional-product-pagination {
+    max-width: 250px;
+    top: 90%;
+    left: 18%;
+  }
+
+  .promotional-product__subtitle {
+    padding-bottom: 10px;
+    display: flex;
+    max-width: 195px;
+    z-index: 10;
+    font-size: 14px;
+  }
 }

@@ -404,3 +404,28 @@ ul {
     padding-right: 10px;
   }
 }
+
+@media (max-width: 491px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .logo {
+    width: 158px;
+  }
+
+  /* разобраться с поиском */
+  /* .user-menu__icon {
+    display: none;
+  } */
+
+  .tel {
+    width: 22px;
+    display: block;
+    padding-right: 10px;
+  }
+
+  .phone-call.header-tel {
+    display: none;
+  }
+}

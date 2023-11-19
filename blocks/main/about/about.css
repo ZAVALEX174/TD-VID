@@ -138,3 +138,24 @@
     padding-bottom: 14px;
   }
 }
+
+@media (max-width: 491px) {
+  .about {
+    max-width: 375px;
+  }
+
+  .about__title {
+    padding-left: 21px;
+    padding-bottom: 37px;
+  }
+
+  .logo__big {
+    width: 225px;
+    margin-top: -40px;
+    padding-bottom: 14px;
+  }
+
+  .about__text {
+    font-size: 18px;
+  }
+}
