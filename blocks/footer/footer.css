@@ -332,7 +332,9 @@
 @media (max-width: 861px) {
   .footer-wrapper {
     display: block;
-    position: relative;
+  }
+
+  .footer__wrapper-up {
   }
 
   .address__office {
@@ -357,6 +359,9 @@
 
   .nav {
     max-width: 480px;
+    
+    position: relative;
+    border: 1px solid red;
   }
 
   .wrap111 {
@@ -410,8 +415,8 @@
     order: 1;
     width: 100%;
     position: absolute;
-    top: 23.5%;
-    left: 22%;
+    top: 163.5%;
+    left: 0;
   }
 
   .footer-munu__item {
@@ -438,4 +443,6 @@
 
   .contact__item {
   }
+
+ 
 }
