@@ -465,3 +465,31 @@
     padding: 10px 0px 0px 8px;
   }
 }
+
+@media (max-width: 351px) {
+  .nav {
+    max-width: 300px;
+  }
+
+  .footer-number {
+    font-size: 16px;
+  }
+
+  .contact__list {
+    padding-left: 0px;
+    column-gap: 10px;
+  }
+
+  .footer__wrapper-down_address {
+    max-width: 300px;
+  }
+
+  .logo__footer {
+    width: 150px;
+    padding-right: 0px;
+  }
+
+  .footer-menu__link {
+    font-size: 13px;
+  }
+}

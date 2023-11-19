@@ -19,21 +19,25 @@
   justify-content: space-between;
 }
 
+.services-wrapper {
+  width: 100%;
+  background-color: #dbe2ea;
+}
 .services__background {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 350px;
-  background-color: #000;
+  /* min-height: 350px; */
+  background: url('../../../images/Baner2.png');
   background-position-y: 10px;
   background-size: 100% 100%;
-  background: url('../../../images/Baner2.png');
   background-repeat: no-repeat;
 
   background-blend-mode: lighten;
   background-size: 100% 90%;
   position: relative;
   z-index: 0;
+  transform: translateY(-10px);
 }
 
 .car-track {
@@ -155,7 +159,7 @@
 
 @media (max-width: 1197px) {
   .services {
-    padding-top: 25px;
+    padding-top: 90px;
     padding-bottom: 45px;
     display: flex;
     flex-direction: row;
@@ -252,19 +256,20 @@
   }
 }
 
-@media (max-width: 1197px) {
+@media (max-width: 376px) {
+  .services-wrapper {
+    width: 100%;
+    background-color: #dbe2ea;
+    height: 235px;
+  }
+
   .services__background {
     min-height: 250px;
+    transform: translateY(-5px);
   }
 
   .services__container {
     max-width: 365px;
-  }
-
-  .car-hatchback {
-    width: 197px;
-    top: 53%;
-    left: 36%;
   }
 
   .services__button {
@@ -282,4 +287,30 @@
   }
 }
 
+@media (max-width: 351px) {
+  .services__container {
+    max-width: 300px;
+    padding: 0;
+  }
+
+  .services__text-title {
+    padding-top: 20px;
+  }
+
+  .services__text-subtitle {
+    z-index: 2;
+  }
+
+  .services__button {
+    z-index: 2;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+  }
+
+  .services__wrapper-text {
+    padding-right: 0px;
+    max-width: 210px;
+    align-items: flex-end;
+  }
+}
 /* разобраться с нижним бекграундом!!!! */

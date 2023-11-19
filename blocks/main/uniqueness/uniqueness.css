@@ -137,3 +137,10 @@
     padding: 0px;
   }
 }
+
+@media (max-width: 351px) {
+  .uniqueness {
+    max-width: 300px;
+    margin-top: -220px;
+  }
+}

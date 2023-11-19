@@ -162,3 +162,9 @@
     padding: 27px 15px 25px 10px;
   }
 }
+
+@media (max-width: 351px) {
+  .about {
+    max-width: 300px;
+  }
+}

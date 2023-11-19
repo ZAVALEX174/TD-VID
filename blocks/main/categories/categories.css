@@ -637,3 +637,59 @@
     max-width: 172px;
   }
 }
+
+@media (max-width: 351px) {
+  .categories {
+    max-width: 300px;
+  }
+
+  .categories__container {
+    max-width: 300px;
+  }
+
+  .categories__title {
+    max-width: 300px;
+  }
+
+  .categories__cards {
+    max-width: 140px;
+  }
+
+  .categories__cards .swiper-slide {
+    max-width: 140px;
+  }
+
+  .categories__card-title {
+    max-width: 170px;
+    padding: 10px 2px;
+  }
+
+  .card-image__title {
+    max-width: 140px;
+  }
+
+  .categories__card:hover .categories__image {
+    max-width: 140px;
+  }
+  .categories__line-bottom {
+    max-width: 140px;
+  }
+
+  .categories__image {
+    padding: 20px 5px;
+    max-width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .categories__text {
+    padding: 0;
+    font-size: 13px;
+  }
+
+  .card-image__subtitle {
+    padding: 10px 2px;
+    justify-content: center;
+  }
+}

@@ -371,3 +371,24 @@ b {
     line-height: 16px;
   }
 }
+
+@media (max-width: 351px) {
+  .promotional-product {
+    max-width: 300px;
+    transform: translateY(-255px);
+  }
+
+  .promotional-product__variant_canister {
+    width: 150px;
+    top: -9%;
+  }
+
+  .promotional-product__subtitle {
+    padding-bottom: 5px;
+    line-height: 16px;
+  }
+
+  .swiper-pagination.promotional-product-pagination {
+    left: 6%;
+  }
+}
