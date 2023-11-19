@@ -359,9 +359,8 @@
 
   .nav {
     max-width: 480px;
-    
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .wrap111 {
@@ -440,9 +439,16 @@
   .footer-number {
     font-size: 20px;
   }
+}
 
-  .contact__item {
+@media (max-width: 861px) {
+  .nav {
+    max-width: 375px;
+    position: relative;
+    /* border: 1px solid red; */
   }
 
- 
+  .footer__wrapper-down_address {
+    max-width: 375px;
+  }
 }
