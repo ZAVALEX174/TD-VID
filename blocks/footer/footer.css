@@ -11,10 +11,11 @@
 }
 
 .footer__wrapper-up {
-  padding-top: 10px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background: #09272e;
   width: 100%;
 }
@@ -26,6 +27,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__menu {
@@ -86,9 +88,15 @@
   align-items: center;
 }
 
+.contact__item-tel {
+  padding-left: 42px;
+}
+
 .contact__link {
+  padding-right: 5px;
   display: flex;
   text-decoration: none;
+  align-items: start;
 }
 
 .footer-number {
@@ -324,6 +332,7 @@
 @media (max-width: 861px) {
   .footer-wrapper {
     display: block;
+    position: relative;
   }
 
   .address__office {
@@ -351,24 +360,82 @@
   }
 
   .wrap111 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    justify-content: end;
+    padding-bottom: 51px;
   }
 
   .copyright {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .copyright__text {
+    margin: 0 auto;
+    padding: 10px 0px 28px;
+    font-size: 15px;
+    order: 1;
+  }
+
+  .logo__footer {
+    width: 175px;
+    padding-right: 0px;
+  }
+
+  .logo__developer {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 122px;
   }
 
   .footer__wrapper-down {
-    border: 1px solid palevioletred;
+    /* border: 1px solid palevioletred; */
+    padding-top: 12px;
+    background: url(../../images/Baner2.png),
+      lightgray -1654.549px -88.481px / 541.213% 201.724% no-repeat;
   }
 
   .footer-contact {
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
+    width: 100%;
+    justify-content: space-between;
   }
 
   .footer__menu {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    max-width: 150px;
     display: flex;
     flex-direction: column;
+    order: 1;
+    width: 100%;
+    position: absolute;
+    top: 23.5%;
+    left: 22%;
+  }
+
+  .footer-munu__item {
+    padding: 5px 0px;
+  }
+
+  .contact__list {
+    padding-left: 0;
+  }
+
+  .footer-menu__list {
+    /* position: absolute; */
+    flex-direction: column;
+  }
+
+  .contact__icon-tel {
+    margin-top: 3px;
+    width: 18px;
+  }
+
+  .footer-number {
+    font-size: 20px;
+  }
+
+  .contact__item {
   }
 }

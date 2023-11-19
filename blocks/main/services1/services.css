@@ -222,8 +222,8 @@
 
 @media (max-width: 861px) {
   .services__container {
-    max-width: 480px;
-    padding: 10px 20px 50px 5px;
+    max-width: 460px;
+    padding: 10px 5px 50px 5px;
   }
 
   .car-track {

@@ -19,6 +19,7 @@
 .wrapper {
   margin-top: 20px;
   width: 100%;
+  min-height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -35,6 +36,8 @@
 
   align-items: center;
   justify-content: space-between;
+
+  position: relative;
 }
 
 .menu {
@@ -50,9 +53,19 @@
 
 .hamburger {
   width: 30px;
-  height: 3px;
-  background-color: white;
+  height: 14px;
   margin: 5px;
+  background-image: url(../../images/бургер.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 39%;
+  left: 1%;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 /* 
@@ -67,8 +80,7 @@ ul {
 .wrapper .menu ul li a {
   text-decoration: none;
 }
-.wrapper .menu ul li 
-{
+.wrapper .menu ul li {
   list-style-type: none;
 }
 
@@ -167,6 +179,7 @@ ul {
 }
 
 .phone-call {
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -299,6 +312,8 @@ ul {
 
 @media (max-width: 1017px) {
   .container {
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 768px;
   }
 
@@ -337,6 +352,10 @@ ul {
     display: block;
   }
 
+  .menu {
+    order: -1;
+  }
+
   .menu__list {
     display: flex;
     flex-direction: column;
@@ -362,5 +381,26 @@ ul {
 
   .menu__item:first-child {
     margin-left: 0px;
+  }
+
+  .menu__item::before {
+    bottom: -5px;
+  }
+
+  .logo {
+    width: 158px;
+    margin-left: 60px;
+    margin-right: 21px;
+    transform: translateY(0px);
+  }
+
+  /* разобраться с поиском */
+  .user-menu__icon {
+    display: none;
+  }
+
+  .tel {
+    display: block;
+    padding-right: 10px;
   }
 }
