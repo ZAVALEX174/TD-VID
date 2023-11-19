@@ -341,6 +341,20 @@
     display: block;
   }
 
+  .hamburger.active {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background-image: url(../../images/cross_9fh62rftufyi\(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    transition: transform 2s;
+    z-index: 50;
+    top: 25%;
+    left: 0%;
+  }
+
   .menu {
     order: -1;
   }
@@ -354,17 +368,18 @@
     gap: 20px;
     top: 0%;
     left: 0%;
-    width: 30%;
+    width: 50%;
     height: 100%;
     padding: 15px;
     background-color: rgba(6, 45, 54, 0.9);
     transform: translateX(-100%);
     transition: transform 0.5s;
-    z-index: 100;
+    z-index: 20;
   }
 
   .menu__list.active {
     transform: translateX(0);
+    padding-top: 70px;
   }
 
   .menu__item:first-child {
@@ -401,11 +416,6 @@
   .logo {
     width: 158px;
   }
-
-  /* разобраться с поиском */
-  /* .user-menu__icon {
-    display: none;
-  } */
 
   .tel {
     width: 22px;
