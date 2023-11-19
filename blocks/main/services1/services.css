@@ -251,3 +251,35 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 1197px) {
+  .services__background {
+    min-height: 250px;
+  }
+
+  .services__container {
+    max-width: 365px;
+  }
+
+  .car-hatchback {
+    width: 197px;
+    top: 53%;
+    left: 36%;
+  }
+
+  .services__button {
+    padding: 15px 31px 19px 44px;
+    font-size: 16px;
+  }
+
+  .services__text-subtitle {
+    line-height: 46px;
+  }
+
+  .services__icon_yellow {
+    width: 10px;
+    padding-left: 10px;
+  }
+}
+
+/* разобраться с нижним бекграундом!!!! */

@@ -3,9 +3,6 @@
   padding-bottom: 75px;
 }
 
-/* .container-medium {
-} */
-
 .about__title {
   padding-bottom: 20px;
   color: #004b5e;
@@ -65,9 +62,6 @@
   font-weight: 600;
   line-height: 16px; /* 88.889% */
 }
-
-/* .promotional-product__icon_green {
-} */
 
 @media (max-width: 1517px) {
   .about {
@@ -157,5 +151,14 @@
 
   .about__text {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 376px) {
+  .about {
+    max-width: 355px;
+  }
+  .about__container {
+    padding: 27px 15px 25px 10px;
   }
 }

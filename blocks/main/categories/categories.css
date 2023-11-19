@@ -600,3 +600,40 @@
     bottom: 5%;
   }
 }
+
+@media (max-width: 376px) {
+  .categories {
+    max-width: 355px;
+  }
+
+  .categories__container {
+    max-width: 355px;
+  }
+
+  .categories__title {
+    max-width: 355px;
+  }
+
+  .categories__cards {
+    max-width: 172px;
+  }
+
+  .categories__cards .swiper-slide {
+    max-width: 172px;
+  }
+
+  .categories__card-title {
+    max-width: 157px;
+  }
+
+  .card-image__title {
+    max-width: 172px;
+  }
+
+  .categories__card:hover .categories__image {
+    max-width: 180px;
+  }
+  .categories__line-bottom {
+    max-width: 172px;
+  }
+}

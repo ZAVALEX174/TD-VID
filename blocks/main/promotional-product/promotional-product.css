@@ -18,15 +18,6 @@
   overflow-x: hidden;
 }
 
-/* .swiper-container {
-} */
-/* .promotional-product-wrapper {
-} */
-/* .swiper-wrapper {
-} */
-/* .promotional-product-slider {
-} */
-
 .simka {
   margin: 150px auto 140px;
   display: flex;
@@ -156,9 +147,6 @@ b {
   bottom: 0%;
   left: 85.9%;
 }
-
-/* .swiper-pagination {
-} */
 
 .swiper-pagination-bullet {
   margin: 0;
@@ -310,11 +298,8 @@ b {
 
 @media (max-width: 861px) {
   .promotional-product {
-    transform: translateY(-208px);
-  }
-
-  .promotional-product {
     max-width: 480px;
+    transform: translateY(-208px);
   }
 
   .promotional-product__button {
@@ -345,7 +330,7 @@ b {
   }
 }
 
-@media (max-width: 861px) {
+@media (max-width: 491px) {
   .promotional-product {
     max-width: 375px;
   }
@@ -366,5 +351,23 @@ b {
     max-width: 195px;
     z-index: 10;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 376px) {
+  .promotional-product {
+    max-width: 355px;
+    transform: translateY(-255px);
+  }
+
+  .promotional-product__variant_canister {
+    width: 190px;
+    top: -23%;
+    right: -2%;
+  }
+
+  .promotional-product__subtitle {
+    padding-bottom: 35px;
+    line-height: 16px;
   }
 }

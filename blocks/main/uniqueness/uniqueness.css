@@ -125,3 +125,15 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 376px) {
+  .uniqueness {
+    max-width: 355px;
+    margin-top: -220px;
+  }
+
+  .uniqueness__card {
+    height: 70px;
+    padding: 0px;
+  }
+}

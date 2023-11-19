@@ -33,10 +33,8 @@
   padding: 0;
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: space-between;
-
   position: relative;
 }
 
@@ -67,15 +65,6 @@
   cursor: pointer;
   opacity: 0.5;
 }
-
-/* 
-ul {
-  padding: 0 43px 0 64px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 47px;
-  justify-content: space-between;
-} */
 
 .wrapper .menu ul li a {
   text-decoration: none;
@@ -362,12 +351,11 @@ ul {
     padding-left: 30px;
     position: fixed;
     align-items: start;
-    justify-content: center;
     gap: 20px;
     top: 0%;
     left: 0%;
     width: 30%;
-    height: 80%;
+    height: 100%;
     padding: 15px;
     background-color: rgba(6, 45, 54, 0.9);
     transform: translateX(-100%);
@@ -427,5 +415,20 @@ ul {
 
   .phone-call.header-tel {
     display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  .header__background {
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container {
+    max-width: 375px;
+  }
+
+  .hamburger {
+    left: 5%;
   }
 }

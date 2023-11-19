@@ -445,10 +445,23 @@
   .nav {
     max-width: 375px;
     position: relative;
-    /* border: 1px solid red; */
   }
 
   .footer__wrapper-down_address {
     max-width: 375px;
+  }
+}
+
+@media (max-width: 376px) {
+  .nav {
+    max-width: 355px;
+  }
+
+  .footer__wrapper-down_address {
+    max-width: 355px;
+  }
+
+  .footer__address {
+    padding: 10px 0px 0px 8px;
   }
 }
